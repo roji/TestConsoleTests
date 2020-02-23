@@ -8,7 +8,7 @@ namespace NUnitTests
         [Test]
         public void ConsoleTest()
         {
-            Console.WriteLine("Hello world");
+            Console.WriteLine("Hello world from NUnit");
         }
     }
 }
