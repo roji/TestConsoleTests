@@ -8,7 +8,8 @@ namespace XUnitTests
         [Fact]
         public void ConsoleTest()
         {
-            Console.WriteLine("Hello world from XUnit");
+            Console.WriteLine("Hello world from XUnit (stdout)");
+            Console.WriteLine("Hello world from XUnit (stderr)");
         }
     }
 }
